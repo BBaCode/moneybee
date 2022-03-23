@@ -1,0 +1,14 @@
+@use "./variables" as *;
+
+@mixin background {
+  background-color: $primary-black;
+  width: 380px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  margin-top: 10rem;
+  color: $primary-gold;
+  display: flex;
+  flex-direction: column;
+}

@@ -1,20 +1,12 @@
 @use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins" as *;
 
 body {
   font-family: "Courier New", Courier, monospace;
 }
 
 .login {
-  background-color: $primary-black;
-  width: 380px;
-  height: 500px;
-  display: flex;
-  flex-direction: column;
-  border-radius: 20px;
-  margin-top: 10rem;
-  color: $primary-gold;
-  display: flex;
-  flex-direction: column;
+  @include background;
 
   &__header {
     display: flex;
@@ -56,6 +48,10 @@ body {
     }
   }
 
+  &__link {
+    width: 200px;
+  }
+
   &__button {
     padding: 0.5rem;
     border-radius: 2px;
@@ -66,7 +62,7 @@ body {
     font-family: "Courier New", Courier, monospace;
 
     &:hover {
-      background-color: gold;
+      background-color: $cta-hover;
     }
   }
 
@@ -82,7 +78,7 @@ body {
     color: $primary-gold;
 
     &:hover {
-      color: gold;
+      color: $cta-hover;
     }
   }
 }

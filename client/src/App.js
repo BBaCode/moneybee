@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Login from "./Components/Login/Login";
 import CreateAccount from "./Components/CreateAccount/CreateAccount";
+import Dashboard from "./Components/Dashboard/Dashboard";
 import "./App.scss";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
         <Switch>
           <Route path="/" exact component={Login} />
           <Route path="/create-account" component={CreateAccount} />
+          <Route path="/dashboard" component={Dashboard} />
         </Switch>
       </Router>
     </div>

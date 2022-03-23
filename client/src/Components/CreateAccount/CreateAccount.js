@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./CreateAccount.scss";
 
 function CreateAccount() {
@@ -5,20 +6,50 @@ function CreateAccount() {
     <div className="create-account">
       <h1 className="create-account__header">Create Account</h1>
       <form className="create-account__form">
-        <label className="create-account__label">Name</label>
-        <input placeholder="Name" className="create-account__input" />
-        <label className="create-account__label">Username</label>
-        <input placeholder="Username" className="create-account__input" />
-        <label className="create-account__label">Email</label>
-        <input placeholder="Email" className="create-account__input" />
-        <label className="create-account__label">Password</label>
-        <input placeholder="Password" className="create-account__input" />
-        <label className="create-account__label">Confirm Password</label>
+        <label for="name" className="create-account__label">
+          Name
+        </label>
         <input
+          name="name"
+          placeholder="Name"
+          className="create-account__input"
+        />
+        <label for="username" className="create-account__label">
+          Username
+        </label>
+        <input
+          name="username"
+          placeholder="Username"
+          className="create-account__input"
+        />
+        <label for="email" className="create-account__label">
+          Email
+        </label>
+        <input
+          name="email"
+          placeholder="Email"
+          className="create-account__input"
+        />
+        <label for="password" className="create-account__label">
+          Password
+        </label>
+        <input
+          name="password"
+          placeholder="Password"
+          className="create-account__input"
+        />
+        <label for="confirm-password" className="create-account__label">
+          Confirm Password
+        </label>
+        <input
+          name="confirm-password"
           placeholder="Confirm Password"
           className="create-account__input"
         />
-        <button className="create-account__button">Sign Up</button>
+        {/* MAKE THIS A REDIRECT WITH STATE TO THE LOGIN */}
+        <Link to="/">
+          <button className="create-account__button">Sign Up</button>
+        </Link>
       </form>
     </div>
   );
