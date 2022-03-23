@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Dashboard.scss";
 import beeicon from "../../assets/icons/swarm.png";
 
@@ -7,16 +8,24 @@ function Dashboard() {
       <div className="dashboard__header">Dashboard</div>
       <div className="dashboard__main">
         <div className="dashboard__card dashboard__card--border-right-bottom">
-          <h2>learn</h2>
+          <Link className="dashboard__card-link" to="/learn">
+            learn
+          </Link>
         </div>
         <div className="dashboard__card dashboard__card--border-bottom">
-          <h2>budget</h2>
+          <Link className="dashboard__card-link" to="/budget">
+            budget
+          </Link>
         </div>
         <div className="dashboard__card dashboard__card--border-right">
-          <h2>account</h2>
+          <Link className="dashboard__card-link" to="/account">
+            account
+          </Link>
         </div>
         <div className="dashboard__card">
-          <h2>other resources</h2>
+          <Link className="dashboard__card-link" to="/resources">
+            resources
+          </Link>
         </div>
       </div>
       <div className="dashboard__footer">

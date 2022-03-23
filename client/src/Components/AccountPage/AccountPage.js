@@ -1,10 +1,12 @@
+import "./AccountPage.scss";
 import { Link } from "react-router-dom";
-import "./CreateAccount.scss";
 
-function CreateAccount() {
+function AccountPage() {
+  //add a handlesubmit here to redirect and blah blah
+
   return (
     <div className="create-account">
-      <h1 className="create-account__header">Create Account</h1>
+      <h1 className="create-account__header">Account Info</h1>
       <form className="create-account__form">
         <label for="name" className="create-account__label">
           Name
@@ -34,8 +36,8 @@ function CreateAccount() {
           Password
         </label>
         <input
-          type="password"
           name="password"
+          type="password"
           placeholder="Password"
           className="create-account__input"
         />
@@ -43,8 +45,8 @@ function CreateAccount() {
           Confirm Password
         </label>
         <input
-          type="password"
           name="confirm-password"
+          type="password"
           placeholder="Confirm Password"
           className="create-account__input"
         />
@@ -52,11 +54,11 @@ function CreateAccount() {
         <Link to="/">
           <button
             onClick={() => {
-              alert("Account successfully created!");
+              alert("Account successfully updated");
             }}
             className="create-account__button"
           >
-            Sign Up
+            Update Account
           </button>
         </Link>
       </form>
@@ -64,4 +66,4 @@ function CreateAccount() {
   );
 }
 
-export default CreateAccount;
+export default AccountPage;

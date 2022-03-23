@@ -4,8 +4,7 @@
 .dashboard {
   @include background;
   //to hide the background black
-  border-top-right-radius: 25px;
-  border-top-left-radius: 25px;
+  border-radius: 25px;
 
   display: flex;
   align-items: center;
@@ -47,6 +46,16 @@
     &--border-right {
       border-right: 1px dashed $primary-ivory;
     }
+
+    &:hover {
+      font-weight: 600;
+      font-size: 1.25rem;
+      background-color: #000000;
+    }
+  }
+
+  &__card-link {
+    color: inherit;
   }
 
   &__footer {
