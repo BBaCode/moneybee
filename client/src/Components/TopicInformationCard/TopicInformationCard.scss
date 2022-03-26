@@ -1,0 +1,21 @@
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins" as *;
+
+.topic-card {
+  padding: 1rem;
+  border: 1px dashed $primary-ivory;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 1rem;
+
+  &__subheader {
+    color: $primary-ivory;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+
+  &__description {
+    padding-bottom: 1rem;
+  }
+}

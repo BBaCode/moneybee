@@ -1,0 +1,11 @@
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins" as *;
+
+.footer {
+  position: relative;
+  @include footer;
+
+  &__icon {
+    @include footerIcon;
+  }
+}

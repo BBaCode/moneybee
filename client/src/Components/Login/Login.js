@@ -21,6 +21,7 @@ function Login() {
         </label>
         <input
           name="password"
+          type="password"
           placeholder="Password"
           className="login__input"
         />

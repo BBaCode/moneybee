@@ -1,0 +1,23 @@
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins" as *;
+
+.topic {
+  @include background;
+  border-radius: 25px;
+  font-size: 1rem;
+
+  &__main {
+    width: 380px;
+    height: 400px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: scroll;
+  }
+
+  &__information-container {
+    padding: 1rem;
+    border: 1px dashed $primary-ivory;
+  }
+}

@@ -1,28 +1,47 @@
 @use "../../styles/partials/variables" as *;
 @use "../../styles/partials/mixins" as *;
 
-body {
-  font-family: "Courier New", Courier, monospace;
-}
-
-.login {
+.calculator {
   @include background;
+  border-radius: 25px;
 
-  &__header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  &__main {
+    width: 380px;
+    height: 400px;
+    padding: 1rem;
     display: flex;
-    justify-content: center;
-    margin: 6rem 0 2rem;
+    flex-direction: column;
+    align-items: center;
+    overflow: scroll;
   }
 
-  &__title {
-    font-size: 2.5rem;
+  &__instructions {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+  }
+
+  &__header {
+    font-weight: 600;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  &__description {
+    font-size: 0.75rem;
+    font-weight: 600;
+    line-height: 1rem;
+    text-align: center;
+    color: $primary-ivory;
   }
 
   &__form {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    margin: 0 4rem;
   }
 
   &__label {
@@ -47,14 +66,10 @@ body {
     }
   }
 
-  &__link {
-    width: 200px;
-  }
-
   &__button {
     padding: 0.5rem;
     border-radius: 2px;
-    margin-top: 2rem;
+    margin-bottom: 0.5rem;
     background-color: $primary-gold;
     border: none;
     font-weight: bold;
@@ -65,19 +80,7 @@ body {
     }
   }
 
-  &__signup {
-    padding-top: 1rem;
-    color: $primary-ivory;
-    font-size: 0.75rem;
-    font-weight: 600;
-    margin: 0 4rem;
-  }
-
-  &__signup-link {
-    color: $primary-gold;
-
-    &:hover {
-      color: $cta-hover;
-    }
+  &__value {
+    text-align: center;
   }
 }

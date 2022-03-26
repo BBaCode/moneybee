@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
+import PageHeader from "../PageHeader/PageHeader";
+import PageFooter from "../PageFooter/PageFooter";
 import "./Dashboard.scss";
-import beeicon from "../../assets/icons/swarm.png";
 
 function Dashboard() {
   return (
     <div className="dashboard">
-      <div className="dashboard__header">Dashboard</div>
+      <PageHeader header="Dashboard" />
       <div className="dashboard__main">
         <div className="dashboard__card dashboard__card--border-right-bottom">
           <Link className="dashboard__card-link" to="/learn">
@@ -13,8 +14,8 @@ function Dashboard() {
           </Link>
         </div>
         <div className="dashboard__card dashboard__card--border-bottom">
-          <Link className="dashboard__card-link" to="/budget">
-            budget
+          <Link className="dashboard__card-link" to="/calculator">
+            calculator
           </Link>
         </div>
         <div className="dashboard__card dashboard__card--border-right">
@@ -28,9 +29,7 @@ function Dashboard() {
           </Link>
         </div>
       </div>
-      <div className="dashboard__footer">
-        <img alt="bee icon" className="dashboard__icon" src={beeicon} />
-      </div>
+      <PageFooter />
     </div>
   );
 }

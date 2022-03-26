@@ -12,3 +12,35 @@
   display: flex;
   flex-direction: column;
 }
+
+@mixin header {
+  padding: 1.0625rem;
+  width: 380px;
+  text-align: center;
+  background-color: $primary-gold;
+  color: $primary-black;
+  font-weight: 600;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  font-size: 1rem;
+}
+
+@mixin footer {
+  height: 50px;
+  width: 380px;
+  text-align: center;
+  background-color: $primary-gold;
+  color: $primary-black;
+  font-weight: 600;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin footerIcon {
+  width: 35px;
+  margin-bottom: 3px;
+  vertical-align: middle;
+}
