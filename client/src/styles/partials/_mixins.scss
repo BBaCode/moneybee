@@ -14,8 +14,8 @@
 }
 
 @mixin header {
-  padding: 1.0625rem;
-  width: 380px;
+  padding: 1rem;
+  width: 378px;
   text-align: center;
   background-color: $primary-gold;
   color: $primary-black;
@@ -23,11 +23,12 @@
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
   font-size: 1rem;
+  border: 1px solid black;
 }
 
 @mixin footer {
-  height: 50px;
-  width: 380px;
+  height: 48px;
+  width: 378px;
   text-align: center;
   background-color: $primary-gold;
   color: $primary-black;
@@ -37,6 +38,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  border: 1px solid $primary-black;
 }
 
 @mixin footerIcon {

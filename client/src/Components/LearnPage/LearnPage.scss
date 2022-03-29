@@ -160,25 +160,25 @@
     position: absolute;
     right: 10px;
     top: 75px;
-    rotate: 45deg;
+    transform: rotate(45deg);
   }
   &__course-arrow-college {
     position: absolute;
     bottom: 45px;
     left: 10px;
-    rotate: 225deg;
+    transform: rotate(225deg);
   }
   &__course-arrow-debt {
     position: absolute;
     left: 108px;
     top: 103px;
-    rotate: 180deg;
+    transform: rotate(180deg);
   }
   &__course-arrow-saving {
     position: absolute;
     right: 105px;
     top: 103px;
-    rotate: 180deg;
+    transform: rotate(180deg);
   }
   &__course-arrow-credit {
     position: absolute;

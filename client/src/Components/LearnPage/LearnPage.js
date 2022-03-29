@@ -26,7 +26,7 @@ function LearnPage() {
               <h2 className="learn__module-title">Current Lesson:</h2>
               <p className="learn__module-lesson">Emergency Fund</p>
             </div>
-            <Link to="/foundations">
+            <Link to="/learn/intro">
               <button className="learn__start-button">Get Started!</button>
             </Link>
           </div>

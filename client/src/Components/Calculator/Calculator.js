@@ -28,17 +28,17 @@ function Calculator() {
 
   return (
     <div className="calculator">
-      <PageHeader header="Calculator" />
+      <PageHeader header="Goal Calculator" />
       <div className="calculator__main">
         <div className="calculator__instructions">
           <h2 className="calculator__header">How to use</h2>
-          <p className="calculator__description">
+          {/* <p className="calculator__description">
             The purpose of this calculator is to help put your financial goals
             in perspective. First, put the price of whatever your goal is (car,
             house, vacation, fancy dinner etc). Next, add how much you could
             contribute on a weekly basis to that goal. Hit submit and get how
             long it would take to get what you want!
-          </p>
+          </p> */}
         </div>
         <form onSubmit={handleSubmit} className="calculator__form">
           <label for="cost" className="calculator__label">

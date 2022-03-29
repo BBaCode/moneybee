@@ -10,20 +10,23 @@
   margin-bottom: 1rem;
   background-color: $primary-ivory;
 
-  &__subheader {
-    color: $primary-ivory;
-    font-weight: 600;
-    margin-bottom: 1rem;
-    color: $primary-black;
-    padding: 0.5rem 1rem;
-    background-color: $primary-gold;
-    width: 100%;
-    text-align: center;
-  }
+  // &__subheader {
+  //   color: $primary-ivory;
+  //   font-weight: 600;
+  //   margin-bottom: 1rem;
+  //   color: $primary-black;
+  //   padding: 0.5rem 1rem;
+  //   background-color: $primary-gold;
+  //   width: 100%;
+  //   text-align: center;
+  // }
 
   &__description {
-    padding-bottom: 1rem;
+    margin: 1rem 0;
     color: $primary-black;
-    padding: 0 1rem 1rem;
+    padding: 0 1rem;
+    line-height: 1.25rem;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   }
 }
