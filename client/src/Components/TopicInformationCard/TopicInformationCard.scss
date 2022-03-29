@@ -2,20 +2,28 @@
 @use "../../styles/partials/mixins" as *;
 
 .topic-card {
-  padding: 1rem;
-  border: 1px dashed $primary-ivory;
+  border: 1px solid $primary-gold;
+  border-radius: 4px;
   display: flex;
   align-items: center;
   flex-direction: column;
   margin-bottom: 1rem;
+  background-color: $primary-ivory;
 
   &__subheader {
     color: $primary-ivory;
     font-weight: 600;
     margin-bottom: 1rem;
+    color: $primary-black;
+    padding: 0.5rem 1rem;
+    background-color: $primary-gold;
+    width: 100%;
+    text-align: center;
   }
 
   &__description {
     padding-bottom: 1rem;
+    color: $primary-black;
+    padding: 0 1rem 1rem;
   }
 }

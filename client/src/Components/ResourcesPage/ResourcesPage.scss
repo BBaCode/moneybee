@@ -1,0 +1,41 @@
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins" as *;
+
+.resources {
+  @include background;
+  border-radius: 25px;
+  font-size: 1rem;
+
+  &__main {
+    width: 380px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  &__header {
+    font-weight: bold;
+    padding-bottom: 1rem;
+  }
+
+  &__header-description {
+    padding-bottom: 3rem;
+    text-align: center;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__link {
+    color: white;
+    line-height: 1.25rem;
+
+    &:hover {
+      color: $primary-gold;
+    }
+  }
+}

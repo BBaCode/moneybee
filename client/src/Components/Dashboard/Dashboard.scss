@@ -24,16 +24,16 @@
     justify-content: center;
 
     &--border-right-bottom {
-      border-right: 1px dashed $primary-ivory;
-      border-bottom: 1px dashed $primary-ivory;
+      border-right: 1px solid $primary-ivory;
+      border-bottom: 1px solid $primary-ivory;
     }
 
     &--border-bottom {
-      border-bottom: 1px dashed $primary-ivory;
+      border-bottom: 1px solid $primary-ivory;
     }
 
     &--border-right {
-      border-right: 1px dashed $primary-ivory;
+      border-right: 1px solid $primary-ivory;
     }
 
     &:hover {
@@ -45,9 +45,5 @@
 
   &__card-link {
     color: inherit;
-  }
-
-  &__icon {
-    @include footerIcon;
   }
 }

@@ -55,7 +55,6 @@ function Calculator() {
           />
           <button className="calculator__button">SUBMIT</button>
         </form>
-        if (condition) {}
         <p className="calculator__value">
           It would take you {days} day(s), {weeks} week(s) or {months} month(s)
           to achieve your goal. You can do it!

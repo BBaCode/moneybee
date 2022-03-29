@@ -6,6 +6,7 @@ import AccountPage from "./Components/AccountPage/AccountPage";
 import LearnPage from "./Components/LearnPage/LearnPage";
 import TopicPage from "./Components/TopicPage/TopicPage";
 import Calculator from "./Components/Calculator/Calculator";
+import ResourcesPage from "./Components/ResourcesPage/ResourcesPage";
 import "./App.scss";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path="/foundations" component={TopicPage} />
           <Route path="/calculator" component={Calculator} />
           <Route path="/account" component={AccountPage} />
+          <Route path="/resources" component={ResourcesPage} />
         </Switch>
       </Router>
     </div>

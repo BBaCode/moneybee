@@ -4,7 +4,6 @@
 .learn {
   @include background;
   border-radius: 25px;
-
   font-size: 1rem;
 
   &__main {
@@ -23,24 +22,40 @@
   }
 
   &__progress {
-    border: 1px dashed $primary-ivory;
-    padding: 1rem;
+    border: 1px solid $primary-gold;
     margin-right: 1rem;
     display: flex;
+    border-radius: 4px;
     flex-direction: column;
+    background-color: $primary-ivory;
+    color: $primary-black;
     &:hover {
       font-weight: bold;
-      border: 1px solid;
     }
   }
 
   &__progress-title {
-    margin-bottom: 1rem;
+    background-color: $primary-gold;
+    padding: 0.5rem;
+    text-align: center;
+    color: black;
     font-weight: bold;
   }
 
+  &__progress-stat-container {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
   &__progress-chapters {
-    margin-bottom: 1rem;
+    margin: 2rem 0 1rem;
+  }
+
+  &__progress-stat {
+    padding: 0 0.5rem;
   }
 
   &__module-start-container {
@@ -51,94 +66,128 @@
   }
 
   &__module {
-    border: 1px dashed $primary-ivory;
-    padding: 1rem;
+    border: 1px solid $primary-gold;
+    border-radius: 4px;
     margin-bottom: 1rem;
     display: flex;
     flex-direction: column;
     width: 100%;
     &:hover {
       font-weight: bold;
-      border: 1px solid;
     }
   }
 
   &__module-title {
     font-weight: bold;
+    background-color: $primary-ivory;
+    padding: 0.5rem 1rem;
+    background-color: $primary-gold;
+    color: $primary-black;
   }
 
-  &__start {
-    border: 1px dashed $primary-ivory;
-    padding: 1rem;
+  &__module-lesson {
+    background-color: $primary-ivory;
+    color: $primary-black;
+    padding: 1rem 0.5rem;
+    text-align: center;
+  }
+
+  &__start-button {
+    border: 1px solid $primary-gold;
     background-color: $primary-black;
+    border-radius: 4px;
+    padding: 1rem;
     color: $primary-gold;
     width: 100%;
     font-size: 1rem;
+    font-weight: bold;
     font-family: "Courier New", Courier, monospace;
-
     &:hover {
-      font-weight: bold;
-      border: 1px solid;
+      background-color: $primary-gold;
+      border: 1px solid $primary-ivory;
+      color: $primary-black;
     }
   }
 
   &__course-map {
     width: 348px;
+    position: relative;
     margin: 1rem 0;
-    border: 1px dashed $primary-ivory;
+    border: 1px solid $primary-gold;
+    background-color: $primary-ivory;
+    border-radius: 4px;
     height: 100%;
-    &:hover {
-      font-weight: bold;
-      border: 1px solid;
-    }
+    color: black;
   }
 
   &__course-map-title {
-    margin: 1rem 0 1rem;
+    padding: 0.5rem 0;
     text-align: center;
     font-weight: bold;
+    background-color: $primary-gold;
   }
 
   &__course-container {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     width: 100%;
     justify-content: space-between;
   }
 
-  &__foundations {
-    margin: 0 0 0 0;
-    font-size: 0.8rem;
-    border-bottom: 1px dashed $primary-ivory;
-    width: 131px;
-    padding-bottom: 0.25rem;
-    padding-left: 1rem;
+  &__course-lesson {
+    width: 33.3%;
+    text-align: center;
+    padding: 1.35rem;
+    border-collapse: collapse;
+    vertical-align: middle;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 12px;
   }
 
-  &__savings {
-    display: flex;
-    justify-content: center;
-    font-size: 0.8rem;
+  &__course-arrow-intro {
+    position: absolute;
+    left: 100px;
+    top: 47px;
   }
 
-  &__savings-p {
-    border-left: 1px dashed $primary-ivory;
-    border-bottom: 1px dashed $primary-ivory;
-    padding-top: 30px;
-    padding-left: 0.5rem;
-    padding-bottom: 0.25rem;
-    width: 86px;
+  &__course-arrow-goals {
+    position: absolute;
+    top: 47px;
+    right: 100px;
   }
-
-  &__college {
-    display: flex;
-    padding-top: 30px;
-    padding-left: 0.5rem;
-    padding-bottom: 0.25rem;
-    margin: 0 1rem 1rem 215px;
-    font-size: 0.8rem;
-    border-left: 1px dashed $primary-ivory;
-    border-bottom: 1px dashed $primary-ivory;
-    width: 130px;
+  &__course-arrow-budget {
+    position: absolute;
+    right: 10px;
+    top: 75px;
+    rotate: 45deg;
+  }
+  &__course-arrow-college {
+    position: absolute;
+    bottom: 45px;
+    left: 10px;
+    rotate: 225deg;
+  }
+  &__course-arrow-debt {
+    position: absolute;
+    left: 108px;
+    top: 103px;
+    rotate: 180deg;
+  }
+  &__course-arrow-saving {
+    position: absolute;
+    right: 105px;
+    top: 103px;
+    rotate: 180deg;
+  }
+  &__course-arrow-credit {
+    position: absolute;
+    bottom: 18px;
+    left: 97px;
+  }
+  &__course-arrow-insurance {
+    position: absolute;
+    right: 97px;
+    bottom: 18px;
   }
 }
