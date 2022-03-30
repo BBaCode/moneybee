@@ -13,12 +13,12 @@ function LearnPage() {
       <div className="learn__main">
         <div className="learn__top-container">
           <div className="learn__progress">
-            <h2 className="learn__progress-title">Progress</h2>
+            <h2 className="learn__progress-title">To Start</h2>
             <div className="learn__progress-stat-container">
-              <p className="learn__progress-stat learn__progress-chapters">
-                0/9 topics
+              <p className="learn__progress-stat">
+                If you're brand new, click 'Get Started', if not, click the
+                module you left off on!
               </p>
-              <p className="learn__progress-stat">33% complete!</p>
             </div>
           </div>
           <div className="learn__module-start-container">
@@ -34,15 +34,33 @@ function LearnPage() {
         <div className="learn__course-map">
           <h2 className="learn__course-map-title">Course Map</h2>
           <div className="learn__course-container">
-            <div className="learn__course-lesson">Intro</div>
-            <div className="learn__course-lesson">Goals</div>
-            <div className="learn__course-lesson">Budget</div>
-            <div className="learn__course-lesson">College</div>
-            <div className="learn__course-lesson">Debt</div>
-            <div className="learn__course-lesson">Saving</div>
-            <div className="learn__course-lesson">Credit</div>
-            <div className="learn__course-lesson">Insurance</div>
-            <div className="learn__course-lesson">Retire</div>
+            <div className="learn__course-lesson">
+              <Link to="/learn/intro">Intro</Link>
+            </div>
+            <div className="learn__course-lesson">
+              <Link to="/learn/goals">Goals</Link>
+            </div>
+            <div className="learn__course-lesson">
+              <Link to="/learn/budget">Budget</Link>
+            </div>
+            <div className="learn__course-lesson">
+              <Link to="/learn/college">College</Link>
+            </div>
+            <div className="learn__course-lesson">
+              <Link to="/learn/debt">Debt</Link>
+            </div>
+            <div className="learn__course-lesson">
+              <Link to="/learn/savings">Saving</Link>
+            </div>
+            <div className="learn__course-lesson">
+              <Link to="/learn/credit">Credit</Link>
+            </div>
+            <div className="learn__course-lesson">
+              <Link to="/learn/insurance">Insurance</Link>
+            </div>
+            <div className="learn__course-lesson">
+              <Link to="/learn/retire">Retire</Link>
+            </div>
             <img
               className="learn__course-arrow-intro"
               src={straightArrow}

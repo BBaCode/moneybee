@@ -15,6 +15,7 @@ import InsurancePage from "./Components/TopicPages/InsurancePage";
 import RetirePage from "./Components/TopicPages/RetirePage";
 import Calculator from "./Components/Calculator/Calculator";
 import ResourcesPage from "./Components/ResourcesPage/ResourcesPage";
+import NotesPage from "./Components/TopicPages/NotesPage";
 import "./App.scss";
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
           <Route path="/learn/credit" component={CreditPage} />
           <Route path="/learn/insurance" component={InsurancePage} />
           <Route path="/learn/retire" component={RetirePage} />
+          <Route path="/learn/notes" component={NotesPage} />
           <Route path="/calculator" component={Calculator} />
           <Route path="/account" component={AccountPage} />
           <Route path="/resources" component={ResourcesPage} />

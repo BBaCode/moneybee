@@ -10,20 +10,24 @@ function Calculator() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setDays(
-      (days = Math.round(
-        (e.target.cost.value / e.target.contribution.value) * 7
-      ).toFixed(2))
-    );
-    setWeeks(
-      (weeks = (e.target.cost.value / e.target.contribution.value).toFixed(2))
-    );
-    setMonths(
-      (months = (
-        ((e.target.cost.value / e.target.contribution.value) * 7) /
-        30
-      ).toFixed(2))
-    );
+    if (!e.target.cost.value || !e.target.contribution.value) {
+      alert("You must enter the cost and contribution");
+    } else {
+      setDays(
+        (days = Math.round(
+          (e.target.cost.value / e.target.contribution.value) * 7
+        ).toFixed(2))
+      );
+      setWeeks(
+        (weeks = (e.target.cost.value / e.target.contribution.value).toFixed(2))
+      );
+      setMonths(
+        (months = (
+          ((e.target.cost.value / e.target.contribution.value) * 7) /
+          30
+        ).toFixed(2))
+      );
+    }
   };
 
   return (
@@ -31,14 +35,17 @@ function Calculator() {
       <PageHeader header="Goal Calculator" />
       <div className="calculator__main">
         <div className="calculator__instructions">
-          <h2 className="calculator__header">How to use</h2>
-          {/* <p className="calculator__description">
-            The purpose of this calculator is to help put your financial goals
-            in perspective. First, put the price of whatever your goal is (car,
-            house, vacation, fancy dinner etc). Next, add how much you could
-            contribute on a weekly basis to that goal. Hit submit and get how
-            long it would take to get what you want!
-          </p> */}
+          <button
+            onClick={(e) => {
+              e.preventDefault();
+              alert(
+                "The purpose of this calculator is to help put your financial goals in perspective. First, put the price of whatever your goal is (car, house, vacation, fancy dinner etc). Next, add how much you could contribute on a weekly basis to that goal. Hit submit and get how long it would take to get what you want!"
+              );
+            }}
+            className="calculator__header-button"
+          >
+            How to use
+          </button>
         </div>
         <form onSubmit={handleSubmit} className="calculator__form">
           <label for="cost" className="calculator__label">

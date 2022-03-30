@@ -1,7 +1,8 @@
 @use "./styles/partials/reset";
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap");
 
 body {
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Quicksand", sans-serif;
   background: linear-gradient(
     -45deg,
     #131212,

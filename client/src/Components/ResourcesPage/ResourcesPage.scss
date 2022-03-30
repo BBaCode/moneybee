@@ -15,14 +15,14 @@
     padding: 1rem;
   }
 
-  &__header {
-    font-weight: bold;
-    padding-bottom: 1rem;
-  }
-
   &__header-description {
-    padding-bottom: 3rem;
+    padding: 1rem;
+    margin: 1.5rem 1rem;
     text-align: center;
+    background-color: $primary-ivory;
+    color: $primary-black;
+    border: 1px solid $primary-gold;
+    border-radius: 4px;
   }
 
   &__list {

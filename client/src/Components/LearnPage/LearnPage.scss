@@ -45,17 +45,12 @@
   &__progress-stat-container {
     width: 150px;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-  }
-
-  &__progress-chapters {
-    margin: 2rem 0 1rem;
+    justify-content: center;
   }
 
   &__progress-stat {
-    padding: 0 0.5rem;
+    text-align: center;
+    padding: 1rem 0.5rem;
   }
 
   &__module-start-container {
@@ -83,6 +78,7 @@
     padding: 0.5rem 1rem;
     background-color: $primary-gold;
     color: $primary-black;
+    text-align: center;
   }
 
   &__module-lesson {
@@ -101,7 +97,7 @@
     width: 100%;
     font-size: 1rem;
     font-weight: bold;
-    font-family: "Courier New", Courier, monospace;
+    font-family: "Quicksand", sans-serif;
     &:hover {
       background-color: $primary-gold;
       border: 1px solid $primary-ivory;

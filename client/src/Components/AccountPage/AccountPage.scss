@@ -17,10 +17,12 @@
     flex-direction: column;
     justify-content: center;
     margin: 0 4rem;
+    height: 400px;
   }
 
   &__label {
     font-weight: bold;
+    margin-bottom: 0.25rem;
   }
 
   &__input {
@@ -44,11 +46,11 @@
   &__button {
     padding: 0.5rem;
     border-radius: 2px;
-    margin-top: 2rem;
+    margin-top: 0.75rem;
     background-color: $primary-gold;
     border: none;
     font-weight: bold;
-    font-family: "Courier New", Courier, monospace;
+    font-family: "Quicksand", sans-serif;
 
     &:hover {
       background-color: $cta-hover;

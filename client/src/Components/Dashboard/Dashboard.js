@@ -6,26 +6,26 @@ import "./Dashboard.scss";
 function Dashboard() {
   return (
     <div className="dashboard">
-      <PageHeader header="Dashboard" />
+      <PageHeader header="Home" />
       <div className="dashboard__main">
         <div className="dashboard__card dashboard__card--border-right-bottom">
           <Link className="dashboard__card-link" to="/learn">
-            learn
+            Learn
           </Link>
         </div>
         <div className="dashboard__card dashboard__card--border-bottom">
           <Link className="dashboard__card-link" to="/calculator">
-            calculator
+            Calculator
           </Link>
         </div>
         <div className="dashboard__card dashboard__card--border-right">
           <Link className="dashboard__card-link" to="/account">
-            account
+            Account
           </Link>
         </div>
         <div className="dashboard__card">
           <Link className="dashboard__card-link" to="/resources">
-            resources
+            Resources
           </Link>
         </div>
       </div>

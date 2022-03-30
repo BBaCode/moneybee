@@ -1,3 +1,5 @@
+import PageHeader from "../PageHeader/PageHeader";
+import PageFooter from "../PageFooter/PageFooter";
 import "./AccountPage.scss";
 import { Link } from "react-router-dom";
 
@@ -6,7 +8,8 @@ function AccountPage() {
 
   return (
     <div className="create-account">
-      <h1 className="create-account__header">Account Info</h1>
+      <PageHeader header="Account Info" />
+
       <form className="create-account__form">
         <label for="name" className="create-account__label">
           Name
@@ -62,6 +65,7 @@ function AccountPage() {
           </button>
         </Link>
       </form>
+      <PageFooter />
     </div>
   );
 }

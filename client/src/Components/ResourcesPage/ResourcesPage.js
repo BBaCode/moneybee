@@ -7,7 +7,6 @@ function ResourcesPage() {
     <div className="resources">
       <PageHeader header="Resources" />
       <div className="resources__main">
-        <h2 className="resources__header">Other Resources</h2>
         <p className="resources__header-description">
           Below are a few other resources for those that are interested in
           further learning!
@@ -35,6 +34,37 @@ function ResourcesPage() {
               href="https://www.nerdwallet.com/article/finance/budget-worksheet"
             >
               Free Budget Planner
+            </a>
+          </li>
+          <li className="resources__list-item">
+            <a
+              className="resources__link"
+              href="https://www.stackingbenjamins.com/about/"
+            >
+              Stacking Benjamins Podcast
+            </a>
+          </li>
+          <li className="resources__list-item">
+            <a className="resources__link" href="https://podcast.farnoosh.tv/">
+              So Money Podcast
+            </a>
+          </li>
+          <li className="resources__list-item">
+            <a className="resources__link" href="https://www.learnvest.com/">
+              LearnVest
+            </a>
+          </li>
+          <li className="resources__list-item">
+            <a className="resources__link" href="https://mint.intuit.com/">
+              Mint (Highly Rated Phone App)
+            </a>
+          </li>
+          <li className="resources__list-item">
+            <a
+              className="resources__link"
+              href="https://www.moneymanagement.org/resources"
+            >
+              Other Resources
             </a>
           </li>
         </ul>
