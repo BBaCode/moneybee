@@ -1,0 +1,103 @@
+[
+  {
+    "id": "1",
+    "title": "Intro",
+    "information": [
+      {
+        "info1": "You wouldn't start building your home without a solid foundation underfoot. The same goes for your finances, you can't build a stable financial future without a solid foundation.",
+        "info2": "If your financial footing is less than solid, don't worry! You can take action to create a solid financial foundation today! Although it may take some time to see the fruits of your labor, the end result will be worth it. Here's where you should get started:"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Goals",
+    "information": [
+      {
+        "info1": "Without a clear goal for your money, it can be difficult to make long-term progress. You need to take some time to think about why you want to improve your current financial position. A clear direction for your money will help you make decisions that will take you to your goals.",
+        "info2": "You might have the goal of saving up a down payment for a house hack. Or have the ultimate goal of reaching financial independence in the future. If your goals involve financial independence, then you can make choices that align with that goal.",
+        "info3": "Whatever your money goals are, take a few minutes to write them down. You can refer back to your goals when you need to make big money decisions."
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Budget",
+    "information": [
+      {
+        "info1": "Without a budget, it can be almost impossible to reach your financial goals. Instead of looking at a budget as a constraint, view it as a tool to help you reach your money goals. A consistent budgeting strategy can help you make progress towards your long-term goals.",
+        "info2": "You can build a budget by starting with your monthly income and savings goals, then add in your expenses. You might need to get creative in order to make everything fit in your budget. Don't be afraid to make some changes to your expenses as you set up your budget.",
+        "info3": "As you build a budget, take advantage of tools such as Mint and Personal Capital that make your life easier. The apps are designed to track your budget for you and make it easier to stay on budget. You can check into these apps whenever to get a sense of where you stand in your budget at any point. With that information, you can make your decisions accordingly."
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Saving",
+    "information": [
+      {
+        "info1": "Saving money is not always an easy task. With life constantly finding ways to pull at your wallet, you'll need to focus on changing your mindset when it comes to saving money. The key is to realize why you are saving money and what the end goal is. Once you have some clarity about your money goals, putting money aside to reach those goals is easier.",
+        "info2": "How much should you be saving? The mindset shift is important, but you may need to make some other changes to make saving money practical. If you simply don’t have enough money left over at the end of the month, then you need to find a way to earn more, spend less or both. Finding a good balance between earning more and spending less is usually the best solution.",
+        "info3": "An emergency fund is a critical part of a stable financial picture. With an emergency fund in place, you can breathe easy knowing there is a safety net in place. If you lost an income source or had an unexpected bill pop up, you would be able to stay afloat without any major financial stress.",
+        "info4": "Most financial experts recommend building an emergency fund to cover between 3 to 6 months worth of expenses. Although the exact number will look different for everyone, most of us feel better with the funds to carry us through turbulent times. If you are building a hefty emergency fund, then consider placing these funds in a high yield savings account."
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "title": "Debt",
+    "information": [
+      {
+        "info1": "Debt is anything you owe to someone or something else (like a bank). Debt can involve cash, property, services, among many other things",
+        "info2": "If you are in debt, then it is time to get rid of those burdens. Although some debt can be a part of life, tackling your consumer and student loan debt is an important part of your journey.",
+        "info3": "Take a look at your debts by listing them all out. Once you have an idea of how much debt you are in, consider your options for paying it off quickly. You have two options – the snowball or avalanche methods.",
+        "info4": "With the snowball method, you can throw all of your extra funds at your smallest outstanding debt. Once you pay off that debt, you add the monthly payment that you eliminated to your next largest debt. If you are motivated by small but steady wins, then this is a great option.",
+        "info5": "With the avalanche method, you focus on paying down your debt with the largest interest rate attached. Since a higher interest rate can cost you thousands of dollars over the lifetime of your loan, this method is more efficient. But if you have loans with high balances, you may not feel the emotional win of making extra payments for a long time. If you are motivated by the numbers of your personal finances, then the avalanche method could be your best option."
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "title": "College",
+    "information": [
+      {
+        "info1": "To go, or not to go to college. That is the question. While there are a lot of opinions on whether college is worth it or right for you, there are some things to know before making any decisions.",
+        "info2": "College offers the ability to continue your education which may be ideal for students who either need a degree for the career they'd like to pursue, or enjoy the idea of continuing to learn in a structured environment. With that being said, college can be very expenaive and often requires taking loans to pay for, which can lead to graduates making payments for decades to come.",
+        "info3": "There is a lot to consider before making a decision on college, but take the time to speak with guidance/academic counselors, talk with friends or family who have made the same decision and do your own research online. You can and will figure it out!"
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "title": "Credit",
+    "information": [
+      {
+        "info1": "Credit is usually defined as an agreement in which someone borrows money with the agreement to pay it back at a later date, usually with interst. While credit can open many doors, it can be tricky to understand how it works and its important to learn about it before mindlessly using a credit card.",
+        "info2": "With that said, it is a good idea to start building your credit score. A good credit score is a gateway to important financing opportunities. Whether you want to purchase a property to house hack or build a real estate portfolio, a good credit score will make your life much easier.",
+        "info3:": "A few good practices to build your credit score include making on-time payments in full to any debts and keeping your debt to income ratio relatively low. You should also review your credit reports on an annual basis to ensure that there aren’t any errors that are causing a dip in your score.",
+        "info4": "If you aren’t sure where you stand with your credit score, take a minute to check it for free. Credit Sesame and Credit Karma are both good options to monitor your credit score easily."
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "title": "Insurance",
+    "information": [
+      {
+        "info1": "Insurance is a way to prevent an unfortunate accident from becoming a financial drain. It is important that you insulate yourself from potential liabilities whenever possible. At the very least, you should seek out insurance policies that cover health, life, rental space, your home, and liabilities such as your car. Don’t allow yourself to stay at risk of significant financial consequences, just find a combination of policies to cover you.",
+        "info2": "When in doubt, consult legal advice or a registered financial planner on what types of insurance you should carry."
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "title": "Retirement",
+    "information": [
+      {
+        "info1": "A happy and healthy retirement usually requires a large amount of assets to support yourself during your golden years. Although retirement may feel like eons away, it is important to start saving for retirement as soon as possible. Even if you aren’t hoping to retire early, you should start stashing away funds now.",
+        "info2": "If you have access to a 401(k) at your company, then look into the company match options. If your company is willing to match any part of your contributions, then make sure to contribute at least enough to score the match.",
+        "info3": "Beyond your employer-sponsored plans, you can consider opening an IRA. An individual retirement account – or IRA – will allow you to save for your retirement in a tax-advantaged way. A Roth IRA is funded with post-tax dollars while a traditional IRA is funded with pre-tax dollars. You can choose between a Roth IRA or Traditional IRA to suit your tax needs."
+      }
+    ]
+  }
+]

@@ -1,0 +1,24 @@
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins" as *;
+
+.footer {
+  position: relative;
+  @include footer;
+  display: flex;
+
+  &__icon-container {
+    width: 75.6px;
+    height: 50px;
+  }
+
+  &__icon {
+    width: 20px;
+    height: 20px;
+    margin-top: 0.5rem;
+  }
+
+  &__text {
+    font-size: 0.75rem;
+    color: $primary-black;
+  }
+}

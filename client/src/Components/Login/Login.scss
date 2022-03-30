@@ -1,0 +1,83 @@
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins" as *;
+
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.login {
+  @include background;
+
+  &__header {
+    display: flex;
+    justify-content: center;
+    margin: 6rem 0 2rem;
+  }
+
+  &__title {
+    font-size: 2.5rem;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 4rem;
+  }
+
+  &__label {
+    font-weight: bold;
+  }
+
+  &__input {
+    margin-bottom: 1rem;
+    background-color: $primary-ivory;
+    border: none;
+    padding: 0.25rem;
+    border-radius: 2px;
+    font-family: "Courier New", Courier, monospace;
+
+    &:focus {
+      outline: none;
+    }
+
+    &::placeholder {
+      opacity: 1;
+      color: $primary-black;
+    }
+  }
+
+  &__link {
+    width: 200px;
+  }
+
+  &__button {
+    padding: 0.5rem;
+    border-radius: 2px;
+    margin-top: 2rem;
+    background-color: $primary-gold;
+    border: none;
+    font-weight: bold;
+    font-family: "Courier New", Courier, monospace;
+
+    &:hover {
+      background-color: $cta-hover;
+    }
+  }
+
+  &__signup {
+    padding-top: 1rem;
+    color: $primary-ivory;
+    font-size: 0.75rem;
+    font-weight: 600;
+    margin: 0 4rem;
+  }
+
+  &__signup-link {
+    color: $primary-gold;
+
+    &:hover {
+      color: $cta-hover;
+    }
+  }
+}

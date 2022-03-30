@@ -1,0 +1,49 @@
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins" as *;
+
+.dashboard {
+  @include background;
+  //to hide the background black
+  border-radius: 25px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  &__main {
+    display: flex;
+    width: 382px;
+    flex-wrap: wrap;
+  }
+
+  &__card {
+    width: 190px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &--border-right-bottom {
+      border-right: 1px solid $primary-ivory;
+      border-bottom: 1px solid $primary-ivory;
+    }
+
+    &--border-bottom {
+      border-bottom: 1px solid $primary-ivory;
+    }
+
+    &--border-right {
+      border-right: 1px solid $primary-ivory;
+    }
+
+    &:hover {
+      font-weight: 600;
+      font-size: 1.25rem;
+      background-color: #000000;
+    }
+  }
+
+  &__card-link {
+    color: inherit;
+  }
+}

@@ -1,0 +1,98 @@
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins" as *;
+
+.calculator {
+  @include background;
+  border-radius: 25px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  &__main {
+    width: 380px;
+    height: 400px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: scroll;
+  }
+
+  &__instructions {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+    margin-top: 1rem;
+  }
+
+  &__header-button {
+    font-weight: 600;
+    margin-bottom: 1rem;
+    text-align: center;
+    background-color: $primary-gold;
+    color: $primary-black;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    border: 1px solid $primary-gold;
+  }
+
+  &__description {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.2rem;
+    text-align: center;
+    color: $primary-black;
+    background-color: $primary-ivory;
+    padding: 0.5rem;
+    border-radius: 4px;
+    margin: 0rem 1rem;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+
+  &__label {
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+  }
+
+  &__input {
+    margin-bottom: 1rem;
+    background-color: $primary-ivory;
+    border: none;
+    padding: 0.25rem;
+    border-radius: 2px;
+    font-family: "Quicksand", sans-serif;
+
+    &:focus {
+      outline: none;
+    }
+
+    &::placeholder {
+      opacity: 1;
+      color: $primary-black;
+    }
+  }
+
+  &__button {
+    padding: 0.5rem;
+    border-radius: 2px;
+    margin: 0.5rem 0 0;
+    background-color: $primary-gold;
+    border: none;
+    font-weight: bold;
+    font-family: "Quicksand", sans-serif;
+
+    &:hover {
+      background-color: $cta-hover;
+    }
+  }
+
+  &__value {
+    text-align: center;
+  }
+}

@@ -1,0 +1,21 @@
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins" as *;
+
+.topic-card {
+  border: 1px solid $primary-gold;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  background-color: $primary-ivory;
+
+  &__description {
+    margin: 1rem 0;
+    color: $primary-black;
+    padding: 0 1rem;
+    line-height: 1.25rem;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+}

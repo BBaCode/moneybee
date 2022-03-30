@@ -1,0 +1,73 @@
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins" as *;
+
+.topic {
+  @include background;
+  border-radius: 25px;
+  font-size: 1rem;
+
+  &__main {
+    width: 380px;
+    height: 400px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: scroll;
+  }
+
+  &__information-container {
+    padding: 1rem;
+    border: 1px dashed $primary-ivory;
+  }
+
+  &__button {
+    padding: 0.5rem;
+    border-radius: 2px;
+    margin-top: 1rem;
+    background-color: $primary-gold;
+    border: none;
+    font-weight: bold;
+    font-family: "Courier New", Courier, monospace;
+
+    &:hover {
+      background-color: $cta-hover;
+    }
+  }
+
+  //for notes page
+
+  &__main-notes {
+    border: 1px solid $primary-gold;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    background-color: $primary-ivory;
+  }
+
+  &__main-notes-description {
+    margin: 1rem 0 0;
+    color: $primary-black;
+    padding: 0 1rem;
+    line-height: 1.25rem;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+
+  &__main-notes-list {
+    margin: 1rem 0;
+  }
+
+  &__main-notes-list-item {
+    margin-bottom: 1rem;
+    font-size: 0.8rem;
+  }
+
+  &__main-span {
+    display: block;
+    font-weight: 600;
+    margin: 0.5rem 0;
+  }
+}
