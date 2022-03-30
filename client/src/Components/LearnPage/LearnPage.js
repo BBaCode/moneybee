@@ -38,28 +38,44 @@ function LearnPage() {
               <Link to="/learn/intro">Intro</Link>
             </div>
             <div className="learn__course-lesson">
-              <Link to="/learn/goals">Goals</Link>
+              <Link className="learn__course-lesson-link" to="/learn/goals">
+                Goals
+              </Link>
             </div>
             <div className="learn__course-lesson">
-              <Link to="/learn/budget">Budget</Link>
+              <Link className="learn__course-lesson-link" to="/learn/budget">
+                Budget
+              </Link>
             </div>
             <div className="learn__course-lesson">
-              <Link to="/learn/college">College</Link>
+              <Link className="learn__course-lesson-link" to="/learn/college">
+                College
+              </Link>
             </div>
             <div className="learn__course-lesson">
-              <Link to="/learn/debt">Debt</Link>
+              <Link className="learn__course-lesson-link" to="/learn/debt">
+                Debt
+              </Link>
             </div>
             <div className="learn__course-lesson">
-              <Link to="/learn/savings">Saving</Link>
+              <Link className="learn__course-lesson-link" to="/learn/savings">
+                Saving
+              </Link>
             </div>
             <div className="learn__course-lesson">
-              <Link to="/learn/credit">Credit</Link>
+              <Link className="learn__course-lesson-link" to="/learn/credit">
+                Credit
+              </Link>
             </div>
             <div className="learn__course-lesson">
-              <Link to="/learn/insurance">Insurance</Link>
+              <Link className="learn__course-lesson-link" to="/learn/insurance">
+                Insurance
+              </Link>
             </div>
             <div className="learn__course-lesson">
-              <Link to="/learn/retire">Retire</Link>
+              <Link className="learn__course-lesson-link" to="/learn/retire">
+                Retire
+              </Link>
             </div>
             <img
               className="learn__course-arrow-intro"
