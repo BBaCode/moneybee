@@ -14,7 +14,8 @@
 
 - This project was the final capstone project for my bootcamp at Brainstation
 - We were given just under 2 weeks to build it from start to finish
-- The purpose of this app is to teach users about personal finance (primarily focused on high schoolers/college students)
+- The purpose of this app is to teach users about personal finance (primarily focused on high schoolers/college students) 
+- I believe deeply that financial literacy should be taught nationally across the US so that graduating students have at least some idea about the impact of money on their lives. Its not about making a million dollars, but being smart with what you do have! (in my opinion)
 
 ## Technologies Used
 
