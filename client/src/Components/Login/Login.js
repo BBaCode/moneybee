@@ -1,7 +1,22 @@
 import { Link } from "react-router-dom";
+import { axios } from "axios";
 import "./Login.scss";
 
 function Login() {
+  //  async function handleLogin(e) {
+  // e.preventDefault();
+  // await axios
+  // .get("http://localhost:8000/register", {
+  //   name,
+  //   username,
+  //   email,
+  //   password,
+  // })
+  // .then((res) => console.log(res))
+  // .catch((err) => console.log(err));
+
+  //  }
+
   return (
     <div className="login">
       <div className="login__header">

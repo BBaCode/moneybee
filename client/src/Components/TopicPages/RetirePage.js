@@ -13,7 +13,6 @@ function RetirePage() {
   const [information, setInformation] = useState([]);
 
   useEffect(() => {
-    let id = 1;
     axios.get(`http://localhost:8000/finance/9`).then(
       (res) => {
         setIsLoaded(true);

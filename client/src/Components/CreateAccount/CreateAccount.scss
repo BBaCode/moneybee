@@ -30,7 +30,7 @@
     border: none;
     padding: 0.25rem;
     border-radius: 2px;
-    font-family: "Courier New", Courier, monospace;
+    font-family: "Quicksand", sans-serif;
 
     &:focus {
       outline: none;
@@ -49,7 +49,7 @@
     background-color: $primary-gold;
     border: none;
     font-weight: bold;
-    font-family: "Courier New", Courier, monospace;
+    font-family: "Quicksand", sans-serif;
 
     &:hover {
       background-color: $cta-hover;
