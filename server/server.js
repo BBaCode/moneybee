@@ -12,6 +12,12 @@ app.use(express.json());
 
 app.use("/finance", financeInfoRoute);
 
+app.use("/login", (req, res) => {
+  res.send({
+    token: "test123",
+  });
+});
+
 function readUsers() {
   const userData = fs.readFileSync("./data/user-information.json");
   const parsedUsers = JSON.parse(userData);

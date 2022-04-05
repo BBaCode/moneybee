@@ -3,20 +3,23 @@
 
 .create-account {
   @include background;
-
   align-items: center;
 
-  &__header {
-    font-size: 1.5rem;
-    font-weight: 600;
-    margin: 2.5rem 0 2rem;
+  &__main {
+    width: 380px;
+    height: 400px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   &__form {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0 4rem;
+    margin: 2rem 4rem;
+    width: 180px;
   }
 
   &__label {
@@ -40,6 +43,12 @@
       opacity: 1;
       color: $primary-black;
     }
+  }
+
+  &__button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 180px;
   }
 
   &__button {

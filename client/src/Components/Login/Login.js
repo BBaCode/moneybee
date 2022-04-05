@@ -1,22 +1,10 @@
 import { Link } from "react-router-dom";
 import { axios } from "axios";
+import { useState } from "react";
+import PropTypes from "prop-types";
 import "./Login.scss";
 
 function Login() {
-  //  async function handleLogin(e) {
-  // e.preventDefault();
-  // await axios
-  // .get("http://localhost:8000/register", {
-  //   name,
-  //   username,
-  //   email,
-  //   password,
-  // })
-  // .then((res) => console.log(res))
-  // .catch((err) => console.log(err));
-
-  //  }
-
   return (
     <div className="login">
       <div className="login__header">
@@ -40,7 +28,7 @@ function Login() {
           placeholder="Password"
           className="login__input"
         />
-        {/* FIX TO MAKE A HANDLESUBMIT AND THEN REDIRECT TO DASHBOARD */}
+
         <Link className="login__link" to="/dashboard">
           <button className="login__button">Log In</button>
         </Link>
@@ -48,7 +36,7 @@ function Login() {
       <p className="login__signup">
         Don't have an account?{" "}
         <Link to="/create-account">
-          <span className="login__signup-link">Click here</span>
+          <span className="login__signup-link">Click here {""}</span>
         </Link>{" "}
         to sign up!
       </p>
