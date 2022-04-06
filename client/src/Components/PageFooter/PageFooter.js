@@ -30,7 +30,7 @@ function PageFooter() {
       <div className="footer__icon-container">
         <Link to="/account">
           <img alt="person" className="footer__icon" src={personIcon} />
-          <p className="footer__text">Acc</p>
+          <p className="footer__text">You</p>
         </Link>
       </div>
       <div className="footer__icon-container">

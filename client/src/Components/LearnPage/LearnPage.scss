@@ -55,6 +55,7 @@
     align-items: center;
     flex-direction: column;
     width: 178.03px;
+    justify-content: space-between;
   }
 
   &__module {
@@ -88,7 +89,8 @@
     border-radius: 4px;
     padding: 1rem;
     color: $primary-gold;
-    width: 100%;
+    width: 178.03px;
+    height: 65px;
     font-size: 1rem;
     font-weight: bold;
     font-family: "Quicksand", sans-serif;

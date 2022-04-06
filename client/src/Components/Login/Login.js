@@ -1,4 +1,7 @@
 import { Link } from "react-router-dom";
+import { axios } from "axios";
+import { useState } from "react";
+import PropTypes from "prop-types";
 import "./Login.scss";
 
 function Login() {
@@ -25,7 +28,7 @@ function Login() {
           placeholder="Password"
           className="login__input"
         />
-        {/* FIX TO MAKE A HANDLESUBMIT AND THEN REDIRECT TO DASHBOARD */}
+
         <Link className="login__link" to="/dashboard">
           <button className="login__button">Log In</button>
         </Link>
@@ -33,7 +36,7 @@ function Login() {
       <p className="login__signup">
         Don't have an account?{" "}
         <Link to="/create-account">
-          <span className="login__signup-link">Click here</span>
+          <span className="login__signup-link">Click here {""}</span>
         </Link>{" "}
         to sign up!
       </p>

@@ -3,20 +3,23 @@
 
 .create-account {
   @include background;
-
   align-items: center;
 
-  &__header {
-    font-size: 1.5rem;
-    font-weight: 600;
-    margin: 2.5rem 0 2rem;
+  &__main {
+    width: 380px;
+    height: 400px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   &__form {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0 4rem;
+    margin: 2rem 4rem;
+    width: 180px;
   }
 
   &__label {
@@ -30,7 +33,7 @@
     border: none;
     padding: 0.25rem;
     border-radius: 2px;
-    font-family: "Courier New", Courier, monospace;
+    font-family: "Quicksand", sans-serif;
 
     &:focus {
       outline: none;
@@ -42,6 +45,12 @@
     }
   }
 
+  &__button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 180px;
+  }
+
   &__button {
     padding: 0.5rem;
     border-radius: 2px;
@@ -49,7 +58,7 @@
     background-color: $primary-gold;
     border: none;
     font-weight: bold;
-    font-family: "Courier New", Courier, monospace;
+    font-family: "Quicksand", sans-serif;
 
     &:hover {
       background-color: $cta-hover;

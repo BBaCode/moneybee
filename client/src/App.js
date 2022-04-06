@@ -16,6 +16,7 @@ import RetirePage from "./Components/TopicPages/RetirePage";
 import Calculator from "./Components/Calculator/Calculator";
 import ResourcesPage from "./Components/ResourcesPage/ResourcesPage";
 import NotesPage from "./Components/TopicPages/NotesPage";
+import TestPage from "./Components/TestPage/TestPage";
 import "./App.scss";
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
           <Route path="/create-account" component={CreateAccount} />
           <Route path="/dashboard" component={Dashboard} />
           <Route path="/learn" exact component={LearnPage} />
+          <Route path="/practice-test" component={TestPage} />
           <Route path="/learn/intro" component={IntroPage} />
           <Route path="/learn/goals" component={GoalsPage} />
           <Route path="/learn/budget" component={BudgetPage} />
