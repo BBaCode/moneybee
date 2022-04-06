@@ -1,6 +1,7 @@
 import PageFooter from "../PageFooter/PageFooter";
 import PageHeader from "../PageHeader/PageHeader";
 import { Link } from "react-router-dom";
+
 import straightArrow from "../../assets/icons/icons8-straight.png";
 import rightCurve from "../../assets/icons/icons8-right-curve.png";
 import leftCurve from "../../assets/icons/icons8-left-curve.png";
@@ -22,12 +23,11 @@ function LearnPage() {
             </div>
           </div>
           <div className="learn__module-start-container">
-            <div className="learn__module">
-              <h2 className="learn__module-title">Current Lesson:</h2>
-              <p className="learn__module-lesson">College</p>
-            </div>
             <Link to="/learn/intro">
               <button className="learn__start-button">Get Started!</button>
+            </Link>
+            <Link to="/practice-test">
+              <button className="learn__start-button">Take the test!</button>
             </Link>
           </div>
         </div>

@@ -1,7 +1,7 @@
 @use "../../styles/partials/variables" as *;
 @use "../../styles/partials/mixins" as *;
 
-.topic {
+.test {
   @include background;
   border-radius: 25px;
   font-size: 1rem;
@@ -16,29 +16,24 @@
     overflow: scroll;
   }
 
-  &__information-container {
-    padding: 1rem;
-    border: 1px dashed $primary-ivory;
-  }
-
   &__button {
     padding: 0.5rem;
-    border-radius: 2px;
-    margin-top: 0.25rem;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
     background-color: $primary-gold;
-    border: none;
+    border: 1px solid $primary-gold;
+    width: 100%;
     font-weight: bold;
     font-family: "Quicksand", sans-serif;
 
     &:hover {
       background-color: $cta-hover;
+      border: 1px solid $cta-hover;
     }
   }
 
-  //for notes page
-
-  &__main-notes {
-    border: 1px solid $primary-gold;
+  &__card {
+    // border: 1px solid $primary-gold;
     border-radius: 4px;
     display: flex;
     align-items: center;
@@ -46,26 +41,11 @@
     margin-bottom: 1rem;
     background-color: $primary-ivory;
   }
-
-  &__main-notes-description {
-    margin: 1rem 0 0;
+  &__question {
+    border: 1px solid $primary-gold;
+    border-bottom: none;
+    padding: 1rem;
     color: $primary-black;
-    padding: 0 1rem;
     line-height: 1.25rem;
-  }
-
-  &__main-notes-list {
-    margin: 1rem 0;
-  }
-
-  &__main-notes-list-item {
-    margin-bottom: 1rem;
-    font-size: 0.8rem;
-  }
-
-  &__main-span {
-    display: block;
-    font-weight: 600;
-    margin: 0.5rem 0;
   }
 }
